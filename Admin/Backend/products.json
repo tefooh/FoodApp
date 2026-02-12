@@ -1,0 +1,1862 @@
+[
+  {
+    "name": "تشيكن تكا",
+    "category": "اطباق اللحوم و الدجاج العالمية",
+    "description": "قطع الدجاج بصوص التكا الهندي مع الارز البسمتي",
+    "ingredients": "دجاج، صوص تكا، ارز بسمتي",
+    "price": 40,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "فيليه اللحم بصوص سيترس",
+    "category": "اطباق اللحوم و الدجاج العالمية",
+    "description": "شرائح الفيليه الفرنسي مع صوص السيترس يقدم مع البطاطا المقلية و الارز او الباستا",
+    "ingredients": "لحم فيليه، صوص سيترس، بطاطس",
+    "price": 70,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": [
+      {
+        "name": "التقديم",
+        "type": "single",
+        "required": true,
+        "choices": [
+          {
+            "label": "ارز",
+            "price": 0
+          },
+          {
+            "label": "باستا صوص ابيض",
+            "price": 0
+          },
+          {
+            "label": "باستا صوص احمر",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "فيلة لحم بصوص المشروم",
+    "category": "اطباق اللحوم و الدجاج العالمية",
+    "description": "شرائح الفيليه مع قطع الماشروم و صوص الديمي جلاس",
+    "ingredients": "لحم فيليه، مشروم، صوص ديمي جلاس",
+    "price": 70,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "فيليه بصوص البيستو",
+    "category": "اطباق اللحوم و الدجاج العالمية",
+    "description": "شرائح الفيليه مع قطع الماشروم و صوص البيستو",
+    "ingredients": "لحم فيليه، صوص بيستو، مشروم",
+    "price": 70,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ضلع خروف محشي",
+    "category": "اطباق اللحوم و الدجاج العالمية",
+    "description": "ضلع الخروف المخلي والمحشي باللحم والخضار مع الجبن الموتزاريلًا",
+    "ingredients": "ضلع خروف، لحم مفروم، خضار، جبن",
+    "price": 180,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "فخدة خروف مدفون في الملح",
+    "category": "اطباق اللحوم و الدجاج العالمية",
+    "description": "فخدة الخروف المخلي مدفون في الملح بطريقة ركان المتميزة",
+    "ingredients": "فخدة خروف، ملح، بهارات",
+    "price": 200,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "وجبة السلطان",
+    "category": "وجبات الشرقية",
+    "description": "ضلع رستو مع ارز مدخن وطاجن لحمه بالبصل مع شوربة وبطاطا وسلطة وعصير",
+    "ingredients": "ضلع، ارز، طاجن لحم، شوربة، بطاطا",
+    "price": 150,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "وجبة الملك",
+    "category": "وجبات الشرقية",
+    "description": "فرد حمام وشوربة الملك مع ارز وبطاطس وسلطة وعصير ليمون نعناع",
+    "ingredients": "حمام، شوربة، ارز، بطاطس",
+    "price": 95,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "وجبة البرنس",
+    "category": "وجبات الشرقية",
+    "description": "فتة موزه ضاني بالارز الابيض مع خبز محمص وتقدم مع سلطة وشوربة اللحم",
+    "ingredients": "موزه ضاني، ارز ابيض، خبز محمص، شوربة",
+    "price": 95,
+    "stock": 999,
+    "allergies": "Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "وجبة العنتيل",
+    "category": "وجبات الشرقية",
+    "description": "طاجن العكاوي مع الكوارع (ديناميت) مع صوص العنتيل تقدم مع الشوربة والسلطة",
+    "ingredients": "عكاوي، كوارع، صوص العنتيل",
+    "price": 105,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طاجن عكاوي",
+    "category": "الطواجن",
+    "description": "طاجن عكاوي تقليدي",
+    "ingredients": "عكاوي، بصل، طماطم",
+    "price": 70,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طاجن كوارع",
+    "category": "الطواجن",
+    "description": "طاجن كوارع مخلي",
+    "ingredients": "كوارع، صوص",
+    "price": 60,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طاجن عكاوي بالكوارع",
+    "category": "الطواجن",
+    "description": "مزيج من العكاوي والكوارع",
+    "ingredients": "عكاوي، كوارع",
+    "price": 90,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طاجن لحم بصل",
+    "category": "الطواجن",
+    "description": "قطع اللحم مع البصل المكرمل",
+    "ingredients": "لحم، بصل",
+    "price": 70,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طاجن سجق بدبس الرمان",
+    "category": "الطواجن",
+    "description": "سجق شرقي مع دبس الرمان",
+    "ingredients": "سجق، دبس رمان",
+    "price": 50,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طاجن ريش",
+    "category": "الطواجن",
+    "description": "طاجن ريش ضاني",
+    "ingredients": "ريش ضاني، خضار",
+    "price": 70,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "فخارة موزة",
+    "category": "الطواجن",
+    "description": "فخارة موزة ضاني في الفرن",
+    "ingredients": "موزة ضاني",
+    "price": 95,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "فخارة عكاوي",
+    "category": "الطواجن",
+    "description": "فخارة عكاوي في الفرن",
+    "ingredients": "عكاوي",
+    "price": 90,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "فخارة حمام",
+    "category": "الطواجن",
+    "description": "فخارة حمام",
+    "ingredients": "حمام",
+    "price": 80,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طاجن مسقعه باللحمه المفرومه",
+    "category": "الطواجن",
+    "description": "مسقعة باذنجان باللحم المفروم والموتزاريلًا",
+    "ingredients": "باذنجان، لحم مفروم، جبن",
+    "price": 40,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طاجن ملوخية",
+    "category": "الطواجن",
+    "description": "ملوخية سادة",
+    "ingredients": "ملوخية، ثوم",
+    "price": 20,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طاجن ملوخية بالجمبري",
+    "category": "الطواجن",
+    "description": "ملوخية مع قطع الجمبري",
+    "ingredients": "ملوخية، جمبري",
+    "price": 40,
+    "stock": 999,
+    "allergies": "Seafood",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طاجن ملوخية باللحم",
+    "category": "الطواجن",
+    "description": "ملوخية مع قطع اللحم",
+    "ingredients": "ملوخية، لحم",
+    "price": 50,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "فرد حمام محشي ارز",
+    "category": "الحمام",
+    "description": "فرد حمام محشي بخلطة الارز",
+    "ingredients": "حمام، ارز",
+    "price": 40,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "فرد حمام محشي فريك",
+    "category": "الحمام",
+    "description": "فرد حمام محشي بخلطة الفريك",
+    "ingredients": "حمام، فريك",
+    "price": 40,
+    "stock": 999,
+    "allergies": "Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "جوز حمام مشوي",
+    "category": "الحمام",
+    "description": "جوز حمام مشوي على الفحم",
+    "ingredients": "حمام",
+    "price": 75,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طبق كبده اسكندراني",
+    "category": "الجريل",
+    "description": "كبدة اسكندراني بالفلفل والثوم",
+    "ingredients": "كبدة، فلفل، ثوم",
+    "price": 45,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طبق كبده بالليه",
+    "category": "الجريل",
+    "description": "كبدة مطهوة مع الليه الضاني",
+    "ingredients": "كبدة، ليه",
+    "price": 45,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طبق مكس مزاليكا",
+    "category": "الجريل",
+    "description": "تشكيلة من الكبد والقوانص والقلوب",
+    "ingredients": "كبد، قوانص، قلوب",
+    "price": 45,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طبق سجق اسكندراني",
+    "category": "الجريل",
+    "description": "سجق اسكندراني بالخلطة",
+    "ingredients": "سجق، خضار",
+    "price": 45,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كبده دجاج بدبس الرمان",
+    "category": "الجريل",
+    "description": "كبدة دجاج مطهوة بدبس الرمان",
+    "ingredients": "كبدة دجاج، دبس رمان",
+    "price": 30,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كباب",
+    "category": "المشويات لحوم",
+    "description": "375 جرام كباب ضاني",
+    "ingredients": "لحم ضاني",
+    "price": 55,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ريش",
+    "category": "المشويات لحوم",
+    "description": "375 جرام ريش ضاني",
+    "ingredients": "ريش ضاني",
+    "price": 65,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "انتركوت مشوي",
+    "category": "المشويات لحوم",
+    "description": "375 جرام انتركوت مشوي",
+    "ingredients": "لحم انتركوت",
+    "price": 55,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ميكس جريل / مخاصي",
+    "category": "المشويات لحوم",
+    "description": "375 جرام تشكيلة مشويات",
+    "ingredients": "كباب، كفتة، شيش",
+    "price": 65,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كبده حولي",
+    "category": "المشويات لحوم",
+    "description": "375 جرام كبدة ضاني مشوية",
+    "ingredients": "كبدة ضاني",
+    "price": 65,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "نيفه",
+    "category": "المشويات لحوم",
+    "description": "375 جرام نيفه مشوية",
+    "ingredients": "لحم ماعز",
+    "price": 65,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كلاوي",
+    "category": "المشويات لحوم",
+    "description": "375 جرام كلاوي مشوية",
+    "ingredients": "كلاوي",
+    "price": 65,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طرب",
+    "category": "المشويات لحوم",
+    "description": "375 جرام طرب مشوي",
+    "ingredients": "طرب",
+    "price": 65,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "سجق",
+    "category": "المشويات لحوم",
+    "description": "375 جرام سجق مشوي",
+    "ingredients": "سجق",
+    "price": 55,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "نصف دجاج مشوي",
+    "category": "المشويات دجاج",
+    "description": "نصف دجاجة مشوية على الفحم",
+    "ingredients": "دجاج",
+    "price": 32,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": [
+      {
+        "name": "التتبيلة",
+        "type": "single",
+        "required": true,
+        "choices": [
+          {
+            "label": "الطريقة التركية",
+            "price": 0
+          },
+          {
+            "label": "الطريقة المصرية",
+            "price": 0
+          },
+          {
+            "label": "الطريقة اللبنانية",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "شيش طاووق",
+    "category": "المشويات دجاج",
+    "description": "375 جرام شيش طاووق",
+    "ingredients": "صدور دجاج",
+    "price": 45,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كباب دجاج",
+    "category": "المشويات دجاج",
+    "description": "375 جرام كباب دجاج",
+    "ingredients": "دجاج مفروم",
+    "price": 45,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "اجنحة دجاج",
+    "category": "المشويات دجاج",
+    "description": "اجنحة دجاج مشوية",
+    "ingredients": "اجنحة دجاج",
+    "price": 60,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": [
+      {
+        "name": "النوع",
+        "type": "single",
+        "required": true,
+        "choices": [
+          {
+            "label": "حار",
+            "price": 0
+          },
+          {
+            "label": "عادي",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "شوربة كوارع",
+    "category": "الشوربة",
+    "description": "شوربة كوارع دسمة",
+    "ingredients": "كوارع، مرقة",
+    "price": 35,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "شوربة مشروم بالكريمة",
+    "category": "الشوربة",
+    "description": "شوربة مشروم بالكريمة",
+    "ingredients": "مشروم، كريمة",
+    "price": 20,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "شوربة عربية",
+    "category": "الشوربة",
+    "description": "شوربة عربية",
+    "ingredients": "خضار، مرقة",
+    "price": 10,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "عدس",
+    "category": "الشوربة",
+    "description": "شوربة عدس",
+    "ingredients": "عدس",
+    "price": 10,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "شوربة سي فود بالكريمة",
+    "category": "الشوربة",
+    "description": "شوربة فواكه البحر بالكريمة",
+    "ingredients": "سي فود، كريمة",
+    "price": 45,
+    "stock": 999,
+    "allergies": "Seafood, Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "شوربة سي فود بالصوص الاحمر",
+    "category": "الشوربة",
+    "description": "شوربة فواكه البحر بالصوص الاحمر",
+    "ingredients": "سي فود، طماطم",
+    "price": 45,
+    "stock": 999,
+    "allergies": "Seafood",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "شوربة دموع التماسيح",
+    "category": "الشوربة",
+    "description": "شوربة خاصة",
+    "ingredients": "مكونات الشيف الخاصة",
+    "price": 45,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "جريك سلاد",
+    "category": "السلطات",
+    "description": "سلطة يونانية",
+    "ingredients": "خس، جبن فيتا، زيتون",
+    "price": 15,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "سيزار الدجاج",
+    "category": "السلطات",
+    "description": "سلطة سيزر بالدجاج",
+    "ingredients": "خس، دجاج، صوص سيزر",
+    "price": 20,
+    "stock": 999,
+    "allergies": "Dairy, Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "فتوش",
+    "category": "السلطات",
+    "description": "سلطة فتوش",
+    "ingredients": "خضار، خبز مقلي",
+    "price": 10,
+    "stock": 999,
+    "allergies": "Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ولدروف سلاد",
+    "category": "السلطات",
+    "description": "خس، نعناع، عين جمل مع صوص الولدروف",
+    "ingredients": "خس، نعناع، عين جمل",
+    "price": 20,
+    "stock": 999,
+    "allergies": "Nuts",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ثومية",
+    "category": "سلطات متنوعة",
+    "description": "سلطة ثومية",
+    "ingredients": "ثوم، مايونيز",
+    "price": 7,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طحينة",
+    "category": "سلطات متنوعة",
+    "description": "سلطة طحينة",
+    "ingredients": "طحينة",
+    "price": 7,
+    "stock": 999,
+    "allergies": "Sesame",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "خضروات",
+    "category": "سلطات متنوعة",
+    "description": "سلطة خضروات",
+    "ingredients": "خيار، طماطم",
+    "price": 7,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "سلطة مشوية",
+    "category": "سلطات متنوعة",
+    "description": "سلطة مشوية",
+    "ingredients": "خضار مشوي",
+    "price": 7,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "بابا غنوج",
+    "category": "سلطات متنوعة",
+    "description": "بابا غنوج",
+    "ingredients": "باذنجان، طحينة",
+    "price": 7,
+    "stock": 999,
+    "allergies": "Sesame",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "متبل",
+    "category": "سلطات متنوعة",
+    "description": "متبل باذنجان",
+    "ingredients": "باذنجان",
+    "price": 7,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "جبنة قديمة",
+    "category": "سلطات متنوعة",
+    "description": "جبنة قديمة",
+    "ingredients": "جبنة",
+    "price": 7,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "بطاطس أمريكية",
+    "category": "سلطات متنوعة",
+    "description": "سلطة بطاطس",
+    "ingredients": "بطاطس، مايونيز",
+    "price": 7,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "بنجر",
+    "category": "سلطات متنوعة",
+    "description": "سلطة بنجر",
+    "ingredients": "بنجر",
+    "price": 7,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "تبولة",
+    "category": "سلطات متنوعة",
+    "description": "سلطة تبولة",
+    "ingredients": "بقدونس، برغل",
+    "price": 7,
+    "stock": 999,
+    "allergies": "Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ليمون حار",
+    "category": "سلطات متنوعة",
+    "description": "مخلل ليمون حار",
+    "ingredients": "ليمون",
+    "price": 7,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "باذنجان مقلي",
+    "category": "سلطات متنوعة",
+    "description": "باذنجان مقلي مخلل",
+    "ingredients": "باذنجان",
+    "price": 7,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "الاروس",
+    "category": "سلطات متنوعة",
+    "description": "سلطة الاروس",
+    "ingredients": "خضار حار",
+    "price": 7,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "حمص",
+    "category": "سلطات متنوعة",
+    "description": "سلطة حمص",
+    "ingredients": "حمص، طحينة",
+    "price": 7,
+    "stock": 999,
+    "allergies": "Sesame",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "جلاش لحم",
+    "category": "المقبلات",
+    "description": "جلاش باللحم المفروم",
+    "ingredients": "جلاش، لحم",
+    "price": 30,
+    "stock": 999,
+    "allergies": "Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "سمبوسك جبنة",
+    "category": "المقبلات",
+    "description": "سمبوسك محشوة جبنة",
+    "ingredients": "عجين، جبنة",
+    "price": 20,
+    "stock": 999,
+    "allergies": "Gluten, Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "سمبوسك لحم",
+    "category": "المقبلات",
+    "description": "سمبوسك محشوة لحم",
+    "ingredients": "عجين، لحم",
+    "price": 30,
+    "stock": 999,
+    "allergies": "Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "عصبان",
+    "category": "المقبلات",
+    "description": "ممبار",
+    "ingredients": "امعاء، ارز",
+    "price": 30,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "بطاطا امريكية حاره",
+    "category": "البطاطا",
+    "description": "بطاطس مقليه مع صوص الجبن والفلفل الهالبينو واللحم المفروم",
+    "ingredients": "بطاطس، جبن، لحم",
+    "price": 30,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "بطاطا بالجبن",
+    "category": "البطاطا",
+    "description": "بطاطس مقلية مع صوص الجبن",
+    "ingredients": "بطاطس، جبن",
+    "price": 20,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "بطاطس مقلية",
+    "category": "البطاطا",
+    "description": "بطاطس مقلية سادة",
+    "ingredients": "بطاطس",
+    "price": 10,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ارز ابيض بالشعرية",
+    "category": "الأرز",
+    "description": "ارز مصري بالشعرية",
+    "ingredients": "ارز، شعرية",
+    "price": 8,
+    "stock": 999,
+    "allergies": "Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ارز بشاور",
+    "category": "الأرز",
+    "description": "ارز بسمتي ابيض",
+    "ingredients": "ارز بسمتي",
+    "price": 12,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ارز امريكي بالزعفران والخضار",
+    "category": "الأرز",
+    "description": "ارز بالزعفران والخضار",
+    "ingredients": "ارز، خضار، زعفران",
+    "price": 15,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ارز مندي",
+    "category": "الأرز",
+    "description": "ارز مندي اصفر",
+    "ingredients": "ارز مندي",
+    "price": 10,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ارز بالخلطة",
+    "category": "الأرز",
+    "description": "ارز بالخلطة والمكسرات",
+    "ingredients": "ارز، مكسرات",
+    "price": 25,
+    "stock": 999,
+    "allergies": "Nuts",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "لحم حولي مدخن",
+    "category": "الركن المدخن",
+    "description": "حولي مدخن يقدم مع البطاطا والمكرونة او الارز",
+    "ingredients": "لحم مدخن",
+    "price": 200,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "دجاج مدفون في الملح",
+    "category": "الركن المدخن",
+    "description": "دجاجة مدخنة مع البطاطا والمكرونة او الارز",
+    "ingredients": "دجاج مدخن",
+    "price": 75,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "راس حولي مدخن",
+    "category": "الركن المدخن",
+    "description": "راس حولي مدخن مع البطاطا والمكرونة او الارز",
+    "ingredients": "راس حولي",
+    "price": 50,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "دجاج بري بري",
+    "category": "الركن المدخن",
+    "description": "قطع الدجاج المدخن بصوص البري بري الحار",
+    "ingredients": "دجاج مدخن، صوص بري بري",
+    "price": 80,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "اجنحة مدخنة",
+    "category": "الركن المدخن",
+    "description": "اجنحة دجاج مدخنة مع اختيارك من الصوصات",
+    "ingredients": "اجنحة دجاج مدخنة",
+    "price": 70,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "المندي لحم",
+    "category": "الركن اليمني",
+    "description": "لحم مندي",
+    "ingredients": "لحم، ارز مندي",
+    "price": 95,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "المضغوط لحم",
+    "category": "الركن اليمني",
+    "description": "لحم مضغوط",
+    "ingredients": "لحم، ارز",
+    "price": 95,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كبسه لحم",
+    "category": "الركن اليمني",
+    "description": "كبسة لحم",
+    "ingredients": "لحم، ارز كبسة",
+    "price": 95,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "لحم مقلقل",
+    "category": "الركن اليمني",
+    "description": "لحم مقلقل",
+    "ingredients": "لحم مقلقل",
+    "price": 90,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كبده قلاية",
+    "category": "الركن اليمني",
+    "description": "كبدة قلاية",
+    "ingredients": "كبدة",
+    "price": 45,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "تشيكن باستا",
+    "category": "باستا",
+    "description": "باستا امريكية مخبوزة وقطع الدجاج والمشروم وصوص الطماطم",
+    "ingredients": "باستا، دجاج، مشروم، صوص طماطم",
+    "price": 70,
+    "stock": 999,
+    "allergies": "Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "تشيكن بيستو",
+    "category": "باستا",
+    "description": "الباستا الايطالية المخبوزة مع قطع الدجاج والمشروم مع صوص الريحان",
+    "ingredients": "باستا، دجاج، مشروم، بيستو",
+    "price": 70,
+    "stock": 999,
+    "allergies": "Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "لوسيفر باستا",
+    "category": "باستا",
+    "description": "الباستا الفرنسية مع قطع الدجاج وصوص لوسيفر الحار",
+    "ingredients": "باستا، دجاج، صوص حار",
+    "price": 70,
+    "stock": 999,
+    "allergies": "Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "مكرونة الفريدو",
+    "category": "باستا",
+    "description": "الباستا الايطالية تقدم مع صوص الفريدو والجبن وشرائح الدجاج",
+    "ingredients": "باستا، دجاج، صوص الفريدو",
+    "price": 70,
+    "stock": 999,
+    "allergies": "Gluten, Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "مكرونة بشاميل",
+    "category": "باستا",
+    "description": "مكرونة مع اللحم المفروم وصوص البولونيز الفرنسي والجبن الموتزاريلًا",
+    "ingredients": "مكرونة، لحم مفروم، بشاميل",
+    "price": 30,
+    "stock": 999,
+    "allergies": "Gluten, Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "مكرونة بولونيز",
+    "category": "باستا",
+    "description": "مكرونة بولونيز",
+    "ingredients": "مكرونة، لحم مفروم، صوص احمر",
+    "price": 30,
+    "stock": 999,
+    "allergies": "Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "مكرونة كرات اللحم السويدية",
+    "category": "باستا",
+    "description": "مكرونة مع كرات اللحم السويدية وصوص السويدي وخبز الثوم",
+    "ingredients": "مكرونة، كرات لحم",
+    "price": 70,
+    "stock": 999,
+    "allergies": "Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "مكرونة اسيوية",
+    "category": "باستا",
+    "description": "شرائح المكرونة والخضار وقطع الدجاج مع الصوص الاسيوي",
+    "ingredients": "مكرونة، دجاج، خضار، صوص اسيوي",
+    "price": 70,
+    "stock": 999,
+    "allergies": "Gluten, Soy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "مكرونة بالجبن الامريكية",
+    "category": "باستا",
+    "description": "مكرونة بالجبن الامريكي",
+    "ingredients": "مكرونة، جبن",
+    "price": 45,
+    "stock": 999,
+    "allergies": "Gluten, Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "مبكبكة بالجرة",
+    "category": "باستا",
+    "description": "المكرونة الليبية الشهيرة بلمسة مطعم ركان",
+    "ingredients": "مكرونة، لحم، صلصة",
+    "price": 75,
+    "stock": 999,
+    "allergies": "Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كونا شريمب",
+    "category": "اطباق السي فود العالمية",
+    "description": "قطع الجمبري الجامبو يقدم مع الصوصات الاسيوية",
+    "ingredients": "جمبري",
+    "price": 100,
+    "stock": 999,
+    "allergies": "Seafood",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "فيش اند شيبس",
+    "category": "اطباق السي فود العالمية",
+    "description": "قطع السمك المقليه تقدم مع البطاطا المقلية وصوص التار تار",
+    "ingredients": "سمك، بطاطس",
+    "price": 70,
+    "stock": 999,
+    "allergies": "Fish",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ديناميت شريمب",
+    "category": "اطباق السي فود العالمية",
+    "description": "قطع الجمبري المقلي المقرمش يقدم مع صوص الديناميت الحار",
+    "ingredients": "جمبري، صوص ديناميت",
+    "price": 100,
+    "stock": 999,
+    "allergies": "Seafood",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "بوبا شريمب",
+    "category": "اطباق السي فود العالمية",
+    "description": "قطع الجمبري والكليماري والكابوريا المشوية مع الصوص الامريكي",
+    "ingredients": "جمبري، كليماري، كابوريا",
+    "price": 100,
+    "stock": 999,
+    "allergies": "Seafood",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "فاهيتا الجمبري",
+    "category": "اطباق السي فود العالمية",
+    "description": "قطع الجمبري المشوية مع الخضار بتتبيلة الفاهيتا",
+    "ingredients": "جمبري، خضار",
+    "price": 120,
+    "stock": 999,
+    "allergies": "Seafood",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "فاهيتا سي فود",
+    "category": "اطباق السي فود العالمية",
+    "description": "قطع السي فود المشويه مع الخضار بتتبيلة الفاهيتا",
+    "ingredients": "سي فود، خضار",
+    "price": 120,
+    "stock": 999,
+    "allergies": "Seafood",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "باستا سي فود الفريدو",
+    "category": "اطباق السي فود العالمية",
+    "description": "قطع السي فود كابوريا جمبري كاليمار مع صوص الالفريدو الايطالي",
+    "ingredients": "سي فود، باستا، صوص الفريدو",
+    "price": 70,
+    "stock": 999,
+    "allergies": "Seafood, Gluten, Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "باستا مارينارا سي فود",
+    "category": "اطباق السي فود العالمية",
+    "description": "قطع الجمبري والكابوريا والكاليمار مع صوص المارينارا الامريكي",
+    "ingredients": "سي فود، باستا، صوص مارينارا",
+    "price": 70,
+    "stock": 999,
+    "allergies": "Seafood, Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "باستا سي فود بيستو",
+    "category": "اطباق السي فود العالمية",
+    "description": "قطع الجمبري والكابوريا والكاليمار مع صوص البيستو الايطالي",
+    "ingredients": "سي فود، باستا، صوص بيستو",
+    "price": 70,
+    "stock": 999,
+    "allergies": "Seafood, Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "طاجن سي فود",
+    "category": "اطباق السي فود العالمية",
+    "description": "قطع الجمبري والكابوريا والكاليماري مع اختيارك من صوص البيستو او صوص الليمون",
+    "ingredients": "سي فود، صوص",
+    "price": 90,
+    "stock": 999,
+    "allergies": "Seafood",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "جمبري",
+    "category": "الأسماك",
+    "description": "جمبري طازج (سعر حسب الوزن)",
+    "ingredients": "جمبري",
+    "price": 0,
+    "stock": 999,
+    "allergies": "Seafood",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "سبييا",
+    "category": "الأسماك",
+    "description": "سبييا طازج (سعر حسب الوزن)",
+    "ingredients": "سبييا",
+    "price": 0,
+    "stock": 999,
+    "allergies": "Seafood",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "استاكوزا",
+    "category": "الأسماك",
+    "description": "استاكوزا طازجة (سعر حسب الوزن)",
+    "ingredients": "استاكوزا",
+    "price": 0,
+    "stock": 999,
+    "allergies": "Seafood",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كاليماري",
+    "category": "الأسماك",
+    "description": "كاليماري طازج (سعر حسب الوزن)",
+    "ingredients": "كاليماري",
+    "price": 0,
+    "stock": 999,
+    "allergies": "Seafood",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كابوريا",
+    "category": "الأسماك",
+    "description": "كابوريا طازجة (سعر حسب الوزن)",
+    "ingredients": "كابوريا",
+    "price": 0,
+    "stock": 999,
+    "allergies": "Seafood",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "بطارخ",
+    "category": "الأسماك",
+    "description": "بطارخ طازجة (سعر حسب الوزن)",
+    "ingredients": "بطارخ",
+    "price": 0,
+    "stock": 999,
+    "allergies": "Seafood",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "سبيسيان",
+    "category": "المشروبات الساخنة",
+    "description": "مشروب سبيسيان",
+    "ingredients": "مشروب ساخن",
+    "price": 3,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "أسبريسو",
+    "category": "المشروبات الساخنة",
+    "description": "قهوة اسبريسو",
+    "ingredients": "بن",
+    "price": 2,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كابتشينو ايطالي",
+    "category": "المشروبات الساخنة",
+    "description": "كابتشينو على الطريقة الايطالية",
+    "ingredients": "بن، حليب",
+    "price": 5,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كابتشينو عادي",
+    "category": "المشروبات الساخنة",
+    "description": "كابتشينو",
+    "ingredients": "بن، حليب",
+    "price": 4,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "مكياطة",
+    "category": "المشروبات الساخنة",
+    "description": "قهوة مكياطة",
+    "ingredients": "بن، حليب",
+    "price": 2,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "اوفالتين",
+    "category": "المشروبات الساخنة",
+    "description": "مشروب اوفالتين",
+    "ingredients": "اوفالتين، حليب",
+    "price": 3,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "سنترافيش",
+    "category": "المشروبات الساخنة",
+    "description": "مشروب سنترافيش",
+    "ingredients": "مشروب ساخن",
+    "price": 7,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "هوت شوكليت",
+    "category": "المشروبات الساخنة",
+    "description": "شوكولاتة ساخنة",
+    "ingredients": "كاكاو، حليب",
+    "price": 5,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "هوت كراميل",
+    "category": "المشروبات الساخنة",
+    "description": "مشروب كراميل ساخن",
+    "ingredients": "كراميل، حليب",
+    "price": 8,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "امريكان كوفي",
+    "category": "المشروبات الساخنة",
+    "description": "قهوة امريكية",
+    "ingredients": "بن، ماء",
+    "price": 3,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "خلطة",
+    "category": "المشروبات الساخنة",
+    "description": "خلطة قهوة",
+    "ingredients": "بن، بهارات",
+    "price": 5,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "خلطة إيطالي",
+    "category": "المشروبات الساخنة",
+    "description": "خلطة قهوة ايطالية",
+    "ingredients": "بن",
+    "price": 5,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "شاي أحمر/اخضر",
+    "category": "المشروبات الساخنة",
+    "description": "شاي",
+    "ingredients": "شاي",
+    "price": 7,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "قهوة عربية",
+    "category": "المشروبات الساخنة",
+    "description": "قهوة عربية",
+    "ingredients": "بن عربي، هيل",
+    "price": 3,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "برتقال",
+    "category": "عصائر طبيعية",
+    "description": "عصير برتقال طازج",
+    "ingredients": "برتقال",
+    "price": 10,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "مانجو",
+    "category": "عصائر طبيعية",
+    "description": "عصير مانجو طازج",
+    "ingredients": "مانجو",
+    "price": 10,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كيوي فراوله",
+    "category": "عصائر طبيعية",
+    "description": "عصير كيوي وفراولة",
+    "ingredients": "كيوي، فراولة",
+    "price": 10,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "جوافه",
+    "category": "عصائر طبيعية",
+    "description": "عصير جوافه طازج",
+    "ingredients": "جوافه",
+    "price": 15,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "فراوله ليمون نعناع",
+    "category": "عصائر طبيعية",
+    "description": "عصير فراولة وليمون ونعناع",
+    "ingredients": "فراولة، ليمون، نعناع",
+    "price": 10,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كوكتيل ليمونادا بينك",
+    "category": "المشروبات الباردة",
+    "description": "كوكتيل ليمونادا وردي",
+    "ingredients": "ليمون، سيرب",
+    "price": 15,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كوكتيل عوار القلب",
+    "category": "المشروبات الباردة",
+    "description": "كوكتيل عوار القلب",
+    "ingredients": "ايس كريم، مانجو، فراولة",
+    "price": 15,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كوكتيل ليبيا",
+    "category": "المشروبات الباردة",
+    "description": "كوكتيل ليبيا",
+    "ingredients": "فواكه مشكلة",
+    "price": 15,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "كوكتيل طبقات",
+    "category": "المشروبات الباردة",
+    "description": "كوكتيل عصائر طبقات",
+    "ingredients": "عصائر متنوعة",
+    "price": 15,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "موكتشينو",
+    "category": "المشروبات الباردة",
+    "description": "مشروب موكتشينو بارد",
+    "ingredients": "قهوة، شوكولاتة، حليب",
+    "price": 15,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ايس كوفي",
+    "category": "المشروبات الباردة",
+    "description": "قهوة مثلجة",
+    "ingredients": "قهوة، ثلج، حليب",
+    "price": 15,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "موخيتو",
+    "category": "المشروبات الباردة",
+    "description": "مشروب موخيتو منعش",
+    "ingredients": "ليمون، نعناع، صودا",
+    "price": 15,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "بيتز زجاج",
+    "category": "المشروبات الباردة",
+    "description": "مشروب غازي زجاج (بيريل/فيروز)",
+    "ingredients": "مشروب شعير",
+    "price": 3,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "عصير راوخ",
+    "category": "المشروبات الباردة",
+    "description": "عصير راوخ زجاج",
+    "ingredients": "عصير",
+    "price": 7,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ليمون نعناع",
+    "category": "المشروبات الباردة",
+    "description": "عصير ليمون بالنعناع",
+    "ingredients": "ليمون، نعناع",
+    "price": 10,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ليمون",
+    "category": "المشروبات الباردة",
+    "description": "عصير ليمون",
+    "ingredients": "ليمون",
+    "price": 10,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "مشروبات غازية",
+    "category": "المشروبات الباردة",
+    "description": "كانز مشروب غازي",
+    "ingredients": "مشروب غازي",
+    "price": 3,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "زجاجة مياه",
+    "category": "المشروبات الباردة",
+    "description": "مياه معدنية",
+    "ingredients": "مياه",
+    "price": 1,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "قشطوطه",
+    "category": "حلويات",
+    "description": "قشطوطه",
+    "ingredients": "كيك، حليب، قشطة",
+    "price": 5,
+    "stock": 999,
+    "allergies": "Dairy, Gluten",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "موس",
+    "category": "حلويات",
+    "description": "موس شوكولاتة",
+    "ingredients": "شوكولاتة، كريمة",
+    "price": 10,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "سنيكرز كيك",
+    "category": "حلويات",
+    "description": "كيكة سنيكرز",
+    "ingredients": "كيك، فول سوداني، كراميل",
+    "price": 12,
+    "stock": 999,
+    "allergies": "Dairy, Gluten, Peanuts",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "ميلك شيك",
+    "category": "حلويات",
+    "description": "ميلك شيك",
+    "ingredients": "حليب، ايس كريم",
+    "price": 15,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": [
+      {
+        "name": "النكهة",
+        "type": "single",
+        "required": true,
+        "choices": [
+          {
+            "label": "فانيليا",
+            "price": 0
+          },
+          {
+            "label": "نوتيلا",
+            "price": 0
+          },
+          {
+            "label": "لوتس",
+            "price": 0
+          },
+          {
+            "label": "فراولة",
+            "price": 0
+          },
+          {
+            "label": "مانجو",
+            "price": 0
+          },
+          {
+            "label": "شيكولاته",
+            "price": 0
+          },
+          {
+            "label": "سنيكرز",
+            "price": 0
+          },
+          {
+            "label": "كيندر",
+            "price": 0
+          },
+          {
+            "label": "افوكادو",
+            "price": 0
+          },
+          {
+            "label": "فستق",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ايس كريم",
+    "category": "حلويات",
+    "description": "ايس كريم",
+    "ingredients": "ايس كريم",
+    "price": 10,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": [
+      {
+        "name": "النكهة",
+        "type": "single",
+        "required": true,
+        "choices": [
+          {
+            "label": "شيكولاته",
+            "price": 0
+          },
+          {
+            "label": "فراولة",
+            "price": 0
+          },
+          {
+            "label": "كراميل",
+            "price": 0
+          },
+          {
+            "label": "مانجو",
+            "price": 0
+          },
+          {
+            "label": "خوخ",
+            "price": 0
+          },
+          {
+            "label": "نوتيلا",
+            "price": 0
+          },
+          {
+            "label": "فانيليا",
+            "price": 0
+          },
+          {
+            "label": "لوتس",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "فخفخينا",
+    "category": "حلويات",
+    "description": "كوكتيل فواكه مع ايس كريم",
+    "ingredients": "فواكه، ايس كريم",
+    "price": 15,
+    "stock": 999,
+    "allergies": "Dairy",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  },
+  {
+    "name": "سلاطه فواكه",
+    "category": "حلويات",
+    "description": "سلطة فواكه طازجة",
+    "ingredients": "فواكه مشكلة",
+    "price": 15,
+    "stock": 999,
+    "allergies": "None",
+    "image": "data:image/jpeg;base64,...",
+    "options": []
+  }
+]
