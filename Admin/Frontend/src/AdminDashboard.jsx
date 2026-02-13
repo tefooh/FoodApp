@@ -307,7 +307,7 @@ const AdminDashboard = ({ user, onLogout }) => {
     };
 
     const populateStock = async () => {
-        if (!window.confirm("This will add sample pharmacy products to your inventory. Continue?")) return;
+        if (!window.confirm("This will add sample products to your inventory. Continue?")) return;
 
         const sampleProducts = [
             {
@@ -401,7 +401,7 @@ const AdminDashboard = ({ user, onLogout }) => {
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
                         <img src={logo} alt="Admin Logo" style={{ maxHeight: '60px', width: 'auto' }} />
                     </div>
-                    <p style={{ color: 'var(--text-dim)', fontSize: '0.7rem', fontWeight: 800, letterSpacing: '0.2em', opacity: 0.3, marginTop: '0.5rem' }}>PHARMACY ADMIN</p>
+                    <p style={{ color: 'var(--text-dim)', fontSize: '0.7rem', fontWeight: 800, letterSpacing: '0.2em', opacity: 0.3, marginTop: '0.5rem' }}>FOODAPP ADMIN</p>
                 </div>
 
                 <nav style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', flex: 1 }}>
@@ -863,11 +863,11 @@ const AdminDashboard = ({ user, onLogout }) => {
                                 </div>
 
                                 <div style={{ flex: 1 }}>
-                                    <label style={labelStyle}>ACTIVE INGREDIENTS / COMPOSITION</label>
+                                    <label style={labelStyle}>DETAILS / COMPOSITION</label>
                                     <input className="input" style={{ width: '100%' }} value={productForm.ingredients} onChange={e => setProductForm({ ...productForm, ingredients: e.target.value })} />
                                 </div>
                                 <div style={{ flex: 1 }}>
-                                    <label style={labelStyle}>WARNINGS / DOSAGE / CONTRAINDICATIONS</label>
+                                    <label style={labelStyle}>ALLERGIES / WARNINGS</label>
                                     <input className="input" style={{ width: '100%' }} value={productForm.allergies} onChange={e => setProductForm({ ...productForm, allergies: e.target.value })} />
                                 </div>
 
