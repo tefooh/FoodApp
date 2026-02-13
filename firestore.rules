@@ -1,0 +1,71 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper: Check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Helper: Check if user is accessing their own document
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Helper: Check if the user is an admin
+    // Checks if the user document exists and has the 'admin' field set to true
+    function isAdmin() {
+      return isAuthenticated() && 
+             exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+             get(/databases/$(database)/documents/users/$(request.auth.uid)).data.admin == true;
+    }
+
+    // Products: Public read, Admin-only write
+    match /products/{productId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    // Promotions: Public read, Admin-only write
+    match /promotions/{promoId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Orders: Authenticated create, User (owner) read, Admin full access
+    match /orders/{orderId} {
+      allow create: if isAuthenticated();
+      // Allow users to read their own orders (assuming order has userId field) OR admins
+      allow read: if isAuthenticated() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow update, delete: if isAdmin();
+    }
+    
+    // Tickets: Authenticated create, User (owner) read/write, Admin full access
+    match /tickets/{ticketId} {
+      allow create: if isAuthenticated();
+      allow read: if isAuthenticated() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow update, delete: if isAdmin();
+    }
+    
+    // User Profiles: 
+    // - Read: Owner or Admin
+    // - Create: Owner (must set admin: false or default)
+    // - Update: Owner (cannot change admin status) or Admin
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      
+      // Allow creation if you are the user. 
+      // Enforce that 'admin' field is a boolean false if provided.
+      allow create: if isOwner(userId) && 
+                    (!('admin' in request.resource.data) || (request.resource.data.admin is bool && request.resource.data.admin == false));
+                    
+      // Allow updates by owner (keeping admin status same) or Admin
+      allow update: if (isOwner(userId) && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['fullName', 'email', 'avatar', 'phone', 'address'])) || isAdmin();
+                    
+      // Helper to prevent admin escalation during update if we didn't use affectedKeys
+      // allow update: if (isOwner(userId) && request.resource.data.admin == resource.data.admin) || isAdmin();
+      
+      allow delete: if isAdmin();
+    }
+  }
+}
