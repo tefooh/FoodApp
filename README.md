@@ -12,14 +12,12 @@ FoodApp is a comprehensive food delivery application solution featuring:
 
 ## ⚠️ Educational Use Only
 
-**READ THE [LICENSE](LICENSE) CAREFULLY.**
+This project is released strictly for educational purposes. Please **READ THE [LICENSE](LICENSE)** for detailed terms regarding usage, modifications, and commercial restrictions.
 
-This project is released STRICTLY for educational purposes.
--   ❌ **NO Commercial Use.**
--   ❌ **NO Modification without permission.**
--   ✅ **Learning and specific study only.**
+## App Screens
 
-Any unauthorized use, modification, or commercial deployment is strictly prohibited and will be treated as plagiarism and copyright infringement.
+![FoodApp Mobile Screens](FoodApp-mobile.png)
+
 
 ## Setup
 
