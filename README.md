@@ -10,13 +10,13 @@ FoodApp is a comprehensive food delivery application solution featuring:
 -   **Admin/Frontend**: React Admin dashboard for managing orders and items.
 -   **Admin/Backend**: Express.js backend with Firebase integration.
 
+<p align="center"> <img src="assets/screenshot.png" alt="OpenLiL app screenshot" width="260" /> </p>
+
 ## ⚠️ Educational Use Only
 
 This project is released strictly for educational purposes. Please **READ THE [LICENSE](LICENSE)** for detailed terms regarding usage, modifications, and commercial restrictions.
 
-## App Screens
-
-![FoodApp Mobile Screens](FoodApp-mobile.png)
+<!-- screenshots moved to top intro -->
 
 
 ## Setup
